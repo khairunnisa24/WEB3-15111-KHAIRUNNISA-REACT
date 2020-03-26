@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/khairunnisa24/WEB3-15111-KHAIRUNNISA-REACT.git/precache-manifest.a3093d0cb47d89cd0f6c8454cf21bf95.js"
+  "/WEB3-15111-KHAIRUNNISA-REACT/precache-manifest.d1e7433f951a4c0499e951d58e84f6e8.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/khairunnisa24/WEB3-15111-KHAIRUNNISA-REACT.git/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/WEB3-15111-KHAIRUNNISA-REACT/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
